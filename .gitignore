@@ -1,0 +1,22 @@
+# Node / Next.js (для будущего демо-сайта)
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Misc
+*.tmp
