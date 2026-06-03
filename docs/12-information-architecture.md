@@ -16,6 +16,7 @@
 ├── /fishing-in-maldives      PILLAR 1 — гайд (трафик-магнит) + споки (season, atolls, rules, cost…)
 ├── /big-game-fishing         PILLAR 2 — big game/troll/jig/popping (+ видовые: GT, tuna, marlin, wahoo)
 ├── /fly-fishing              PILLAR 3 — флай/флэтс (GT, триггерфиш, bonefish-бонус)
+├── /sport-fishing            Sport (заброс/джиг/попперинг) — 3-й вид отдельной страницей для клиента (в SEO — спок под big-game)
 ├── /packages                 PILLAR 4 ⭐ — пакеты «рыбалка + отель» (+ конфигуратор-презентация)
 │   ├── /packages/liveaboard
 │   ├── /packages/resort-stay
