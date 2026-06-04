@@ -1,0 +1,48 @@
+<!-- _sidebar.md — навигация сайта -->
+
+- [🏠 Главная](README.md)
+
+- **📑 Коммерческое предложение**
+  - [Обзор КП](proposal/kp/README.md)
+  - [01 · Обложка](proposal/kp/01-cover.md)
+  - [02 · Резюме](proposal/kp/02-summary.md)
+  - [03 · Мы вас поняли](proposal/kp/03-understanding.md)
+  - [04 · Разбор конкурентов](proposal/kp/04-competitors.md)
+  - [05 · Позиционирование](proposal/kp/05-positioning.md)
+  - [06 · Аудитории](proposal/kp/06-audiences.md)
+  - [07 · Модель продаж](proposal/kp/07-sales-model.md)
+  - [08 · Оплата и крипта](proposal/kp/08-payments-crypto.md)
+  - [09 · Юр-аспекты](proposal/kp/09-legal.md)
+  - [10 · Языки и рынки](proposal/kp/10-languages-markets.md)
+  - [11 · SEO и AI-поиск](proposal/kp/11-seo-ai.md)
+  - [12 · Контент](proposal/kp/12-content.md)
+  - [13 · CRM и лиды](proposal/kp/13-crm-leads.md)
+  - [14 · Технологии](proposal/kp/14-technology.md)
+  - [15 · Этапы](proposal/kp/15-stages.md)
+  - [16 · Цены «от»](proposal/kp/16-pricing.md)
+  - [17 · Детальный просчёт](proposal/kp/17-estimate.md)
+  - [18 · Сроки](proposal/kp/18-timeline.md)
+  - [19 · Окупаемость](proposal/kp/19-roi.md)
+  - [20 · Почему мы](proposal/kp/20-why-us.md)
+  - [21 · Следующий шаг](proposal/kp/21-next-step.md)
+  - [22 · Приложения](proposal/kp/22-appendices.md)
+
+- **🛠 Производство КП**
+  - [Оглавление](proposal/00-kp-outline.md)
+  - [Раскладка под Figma](proposal/03-deck-layout.md)
+  - [Визуально-брендовое направление](proposal/04-visual-brand-direction.md)
+  - [Вопросы клиента → ответы](proposal/05-client-qa.md)
+  - [Визуальный разбор конкурентов](proposal/01-competitors-visual.md)
+  - [Полный текст КП (одним файлом)](proposal/02-kp-full.md)
+
+- **🔍 Аналитика и стратегия**
+  - [Анализ конкурентов](02-competitors.md)
+  - [Аудитория и персоны](10-audience-personas.md)
+  - [Позиционирование и месседжинг](11-positioning-messaging.md)
+  - [SEO / GEO-стратегия](14-seo-strategy.md)
+  - [Контент-стратегия](13-content-strategy.md)
+  - [Информационная архитектура](12-information-architecture.md)
+  - [Платежи и право](16-payments-legal.md)
+  - [Технический стек](15-tech-stack.md)
+  - [Цены и тарифы](04-pricing.md)
+  - [Фактура: рыбалка на Мальдивах](reference/facts-maldives-fishing.md)
