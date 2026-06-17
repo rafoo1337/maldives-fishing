@@ -4,216 +4,123 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="noindex" />
-<title>Maldives Fishing — дизайн-референсы (вау-сайты)</title>
+<title>Maldives Fishing — вау 3D/WebGL референсы</title>
 <style>
-  :root{--ocean:#0B1F2A;--teal:#2E7E8C;--amber:#E2A04A;--ink:#13242c;--muted:#5d6e75;--line:#e8e2d6;--cream:#f7f4ee}
+  :root{--bg:#0b0f17;--card:#141a26;--ink:#eef2f7;--muted:#9aa7b4;--line:#222b3a;--teal:#46d6c8;--amber:#E2A04A;--purp:#b69cff}
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--ink);background:#fff;line-height:1.5;-webkit-text-size-adjust:100%}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5;-webkit-text-size-adjust:100%}
   .wrap{max-width:780px;margin:0 auto;padding:0 18px}
-  header{background:linear-gradient(180deg,#08161e,var(--ocean));color:#fff;padding:30px 0 24px}
+  header{padding:30px 0 22px;border-bottom:1px solid var(--line)}
   header h1{margin:0 0 6px;font-size:24px}
-  header p{margin:0;color:#a9bdc4;font-size:14px}
-  .legend{margin-top:12px;font-size:12px;color:#90a6ad}
-  .pill{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:20px;vertical-align:middle;margin-left:2px}
-  .t-3d{background:#3b2a63;color:#e4d9ff}
-  .t-scroll{background:#1f5b66;color:#cdeef3}
-  .t-video{background:#6b4a14;color:#ffe6bd}
-  .t-award{background:#5c4a12;color:#ffe9a8}
-  nav{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 0;z-index:5;overflow-x:auto;white-space:nowrap}
+  header p{margin:0;color:var(--muted);font-size:14px}
+  .note{background:#16202e;border:1px solid #2a3b4f;border-radius:12px;padding:13px 15px;font-size:13.5px;color:#cfe0e6;margin:16px 0}
+  .pill{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:3px;vertical-align:middle}
+  .t-award{background:#4a3d12;color:#ffe9a8}
+  .t-theme{background:#0f4a44;color:#9cf3e8}
+  nav{position:sticky;top:0;background:rgba(11,15,23,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 0;z-index:5;overflow-x:auto;white-space:nowrap}
   nav a{display:inline-block;margin-right:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none}
   section{padding:22px 0 6px}
-  h2{font-size:19px;margin:0 0 4px;color:var(--ocean)}
+  h2{font-size:19px;margin:0 0 4px}
   .sub{color:var(--muted);font-size:13px;margin:0 0 14px}
-  .grp{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--amber);margin:18px 0 6px}
   ul{list-style:none;margin:0;padding:0}
-  li{padding:11px 0;border-bottom:1px solid var(--line)}
-  li a{font-size:16px;font-weight:600;color:#0a66c2;text-decoration:none;word-break:break-word}
-  li a:hover{text-decoration:underline}
-  .d{display:block;color:var(--muted);font-size:13px;margin-top:2px}
-  .chk{color:#b06b00;font-size:11px;font-weight:600}
-  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px}
-  td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
-  td a{color:#0a66c2;text-decoration:none;font-weight:600}
-  td:first-child{white-space:nowrap;font-weight:600}
-  footer{background:var(--cream);margin-top:24px;padding:20px 0;color:var(--muted);font-size:13px}
-  .note{background:#fff7e6;border:1px solid #f0dcae;border-radius:10px;padding:12px 14px;font-size:13px;color:#6b5320;margin:14px 0}
+  li{padding:13px 0;border-bottom:1px solid var(--line)}
+  li a.main{font-size:17px;font-weight:700;color:#7db8ff;text-decoration:none}
+  li a.main:hover{text-decoration:underline}
+  .d{display:block;color:var(--muted);font-size:13.5px;margin-top:3px}
+  .chk{color:#e0a85b;font-size:11px;font-weight:600}
+  .board a{display:block;padding:10px 0;border-bottom:1px solid var(--line);color:#7db8ff;text-decoration:none;font-weight:600}
+  .board a span{color:var(--muted);font-weight:400;font-size:13px}
+  footer{margin-top:24px;padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 </style>
 </head>
 <body>
 
 <header><div class="wrap">
-  <h1>🎣 Дизайн-референсы — вау-сайты</h1>
-  <p>Maldives Fishing · подборка для презентации/КП · 54agency</p>
-  <div class="legend">метки: <span class="pill t-3d">3D/WebGL</span> <span class="pill t-scroll">скролл</span> <span class="pill t-video">видео</span> <span class="pill t-award">награда</span> · клик открывает сайт в новой вкладке · <span class="chk">[проверить]</span> — открыть и заскринить перед вставкой</div>
+  <h1>🔥 Вау-референсы — 3D / WebGL</h1>
+  <p>Maldives Fishing · только награждённые иммерсивные сайты · 54agency</p>
 </div></header>
 
 <nav><div class="wrap">
-  <a href="#fishing">① Рыбалка/снасти</a>
-  <a href="#ocean">② Океан/вода</a>
-  <a href="#luxury">③ Luxury/яхты</a>
-  <a href="#wow">④ Вау 3D/WebGL</a>
-  <a href="#galleries">⑤ Галереи + GitHub</a>
+  <a href="#top">① Топ-победители</a>
+  <a href="#studios">② Студии-эталоны</a>
+  <a href="#ocean">③ Под нашу тему</a>
+  <a href="#object">④ 3D-объект</a>
+  <a href="#boards">⑤ Доски-галереи</a>
 </div></nav>
 
 <div class="wrap">
 
-<div class="note">⚙️ <b>Честно про продакшен:</b> тяжёлый 3D/WebGL — дорого и рискованно для скорости/SEO. «Бюджетный вау» с тем же впечатлением дают типографика + плавные анимации (GSAP) + лёгкий WebGL — см. <b>Unseen Studio</b> и <b>14islands</b>. Их стоит показать клиенту как реалистичную планку для 1-й фазы.</div>
+<div class="note">👉 Это <b>интерактив</b> — открывай и <b>двигай мышкой / скролль</b>, магия в движении (статичный скрин не передаёт). Здесь только победители <b>Awwwards Site of the Year / Month</b> и <b>FWA</b> — без брендового мусора. <span class="pill t-theme">тема</span> — ближе всего к нашему океану/рыбалке.</div>
 
-<section id="fishing">
-  <h2>① Рыбалка, снасти и лоджи</h2>
-  <p class="sub">Ближайшая тематика: премиум-бренды снастей, лоджи и чартеры с сильным дизайном.</p>
-  <div class="grp">Лоджи / чартеры (самый близкий к нам тип)</div>
+<section id="top">
+  <h2>① Топ-победители (Site of the Year / Month)</h2>
+  <p class="sub">Абсолютная вершина 3D/WebGL последних лет.</p>
   <ul>
-    <li><a href="https://www.alphonse-island.com/fly-fishing/" target="_blank" rel="noopener">Alphonse Island — Fly Fishing</a> <span class="pill t-video">видео</span><span class="pill t-scroll">скролл</span><span class="d">Люкс-лодж на атоллах Индийского океана — кинематографичный hero, элегантные оверлеи. Главный референс по позиционированию.</span></li>
-    <li><a href="https://alphonsefishingco.com" target="_blank" rel="noopener">Alphonse Fishing Company</a> <span class="d">Бренд-оператор fly-fishing на внешних атоллах — экспедиционная подача. <span class="chk">[проверить]</span></span></li>
-    <li><a href="https://luxurysportfishingcharters.com" target="_blank" rel="noopener">Luxury Sportfishing Charters</a> <span class="d">Люкс deep-sea чартер, морская фотография — прямой нишевый референс. <span class="chk">[проверить]</span></span></li>
+    <li><a class="main" href="https://landonorris.com" target="_blank" rel="noopener">Lando Norris</a> <span class="pill t-award">SOTY 2025</span><span class="d">3D-шлем вращается синхронно со скроллом, кинематографичные сцены, «Helmets Hall of Fame». Сторителлинг вокруг одного героя — модель для «топ-капитан/локация».</span></li>
+    <li><a class="main" href="https://bruno-simon.com" target="_blank" rel="noopener">Bruno Simon</a> <span class="pill t-award">SOTM 2026</span><span class="d">Ездишь на машинке по 3D-миру с реальной физикой и пространственным звуком. Максимальный «вау» и запоминаемость.</span></li>
+    <li><a class="main" href="https://igloo.inc" target="_blank" rel="noopener">Igloo Inc</a> <span class="pill t-award">SOTM</span><span class="d">Процедурные ледяные кристаллы, дрейф камеры, шейдерная типографика, футер из частиц. «Жидкая» 3D-эстетика.</span></li>
+    <li><a class="main" href="https://messenger.abeto.co" target="_blank" rel="noopener">Messenger</a> <span class="pill t-award">Dev SOTY 2025</span><span class="d">Крошечная WebGL-планета крутится в реалтайме, курьер бежит по рельефу. <b>3D-глобус как навигация по атоллам/точкам лова.</b> <span class="chk">[проверить]</span></span></li>
+    <li><a class="main" href="https://scoutmotors.com" target="_blank" rel="noopener">Scout Motors</a> <span class="pill t-award">E-comm of Year 2025</span><span class="d">Богатое 3D-исследование автомобиля с конфигуратор-сценами. Иммерсив без потери практичности — близко к «собери свой тур/лодку».</span></li>
+    <li><a class="main" href="https://obys.agency" target="_blank" rel="noopener">Obys Agency</a> <span class="pill t-award">Awwwards</span><span class="d">Кинетическая типографика: буквы морфятся на скролле поверх WebGL-слоёв. Фирменный «осязаемый» движ.</span></li>
+    <li><a class="main" href="https://microsoft.ai" target="_blank" rel="noopener">Microsoft AI</a> <span class="pill t-award">Awwwards</span><span class="d">«Вегетативные» шейдеры, мягкое полноэкранное WebGL-погружение, tone-on-tone текстуры.</span></li>
+    <li><a class="main" href="https://terminal.industries" target="_blank" rel="noopener">Terminal Industries</a> <span class="pill t-award">Awwwards</span><span class="d">На скролле 3D перетекает в wireframe и обратно — техно-погружение. <span class="chk">[проверить]</span></span></li>
   </ul>
-  <div class="grp">Премиум-бренды снастей и экипировки</div>
+</section>
+
+<section id="studios">
+  <h2>② Студии-эталоны (планка исполнения)</h2>
+  <p class="sub">У них десятки наградных 3D-кейсов — открой любой проект внутри.</p>
   <ul>
-    <li><a href="https://www.nomadtackle.com/" target="_blank" rel="noopener">Nomad Design Tackle</a> <span class="pill t-video">видео</span><span class="d">Видео-hero, кинематографичный lifestyle, «Crafted by Experience» — основан капитаном чартера. Очень близко нам.</span></li>
-    <li><a href="https://pelagicgear.com/" target="_blank" rel="noopener">PELAGIC Gear</a> <span class="d">Офшорный бренд «life on the water», тёмная морская палитра.</span></li>
-    <li><a href="https://simmsfishing.com" target="_blank" rel="noopener">Simms Fishing</a> <span class="d">Сильная продуктовая сетка, профессиональная съёмка, выверенная типографика.</span></li>
-    <li><a href="https://www.sage-fishing.com" target="_blank" rel="noopener">Sage</a> <span class="d">Премиальный нахлыст-бренд, атмосферная съёмка рек. <span class="chk">[проверить]</span></span></li>
-    <li><a href="https://aftco.com" target="_blank" rel="noopener">AFTCO</a> <span class="d">Спортивная рыбалка как стиль жизни, крупная типографика. <span class="chk">[проверить]</span></span></li>
-    <li><a href="https://13fishing.com" target="_blank" rel="noopener">13 Fishing</a> <span class="d">Смелый «характерный» молодой бренд снастей. <span class="chk">[проверить]</span></span></li>
+    <li><a class="main" href="https://lusion.co" target="_blank" rel="noopener">Lusion</a> <span class="pill t-award">SOTY 2023</span><span class="d">Эталон Three.js: интерактивные 3D-объекты, реактивные частицы, «жидкие» сцены, постпроцессинг.</span></li>
+    <li><a class="main" href="https://activetheory.net" target="_blank" rel="noopener">Active Theory</a> <span class="pill t-award">SOTM</span><span class="d">Флюидные полноэкранные переходы, реалтайм-частицы, иммерсивные 3D-миры (движок Hydra).</span></li>
+    <li><a class="main" href="https://resn.co.nz" target="_blank" rel="noopener">Resn</a> <span class="pill t-award">FWA</span><span class="d">Сюрреалистичные WebGL-миры, частицы, интерактивные 3D-персонажи.</span></li>
+    <li><a class="main" href="https://immersive-g.com" target="_blank" rel="noopener">Immersive Garden</a> <span class="pill t-award">FWA/CSSDA</span><span class="d">Высокобюджетный 3D + контроль перформанса. Премиальный люкс-WebGL.</span></li>
+    <li><a class="main" href="https://itsoffbrand.com" target="_blank" rel="noopener">OFF+BRAND</a> <span class="pill t-award">SOTY</span><span class="d">Сделали Lando Norris. Безупречные микро-анимации и 3D-переходы.</span></li>
+    <li><a class="main" href="https://noomoagency.com" target="_blank" rel="noopener">Noomo Agency</a> <span class="pill t-award">Awwwards</span><span class="d">3D-сторителлинг как профиль — витрина «дорогого» 3D.</span></li>
   </ul>
 </section>
 
 <section id="ocean">
-  <h2>② Океан / вода / дайвинг (иммерсив)</h2>
-  <p class="sub">Атмосфера глубины: 3D/WebGL вода, скролл-погружение, частицы, видео.</p>
-  <div class="grp">Флагманы иммерсива (must-see)</div>
+  <h2>③ Под нашу тему: океан / вода</h2>
+  <p class="sub">Иммерсивная вода и погружение — ровно атмосфера для рыболовного бренда.</p>
   <ul>
-    <li><a href="https://www.theseawebreathe.com" target="_blank" rel="noopener">The Sea We Breathe</a> <span class="pill t-3d">3D/WebGL</span><span class="pill t-scroll">скролл</span><span class="pill t-award">Awwwards SOTD</span><span class="d">Погружение под воду: 3 интерактивных «дайва», каустики, частицы, звук, озвучка S. Fry. Эталон эмоции океана.</span></li>
-    <li><a href="https://neal.fun/deep-sea/" target="_blank" rel="noopener">The Deep Sea (Neal Agarwal)</a> <span class="pill t-scroll">скролл</span><span class="d">Скролл от поверхности до Марианской впадины — гипнотично. Механика «скролл = погружение» под зоны рыбалки/трофеи.</span></li>
-    <li><a href="https://www.awwwards.com/sites/oceanx-2025" target="_blank" rel="noopener">OceanX 2025 in Review</a> <span class="pill t-3d">3D/WebGL</span><span class="pill t-award">SOTD</span><span class="d">Иммерсивный таймлайн морских экспедиций — язык «трофейная рыбалка как экспедиция».</span></li>
-    <li><a href="https://www.sbs.com.au/theboat/" target="_blank" rel="noopener">The Boat (SBS)</a> <span class="pill t-scroll">скролл</span><span class="pill t-award">SOTD</span><span class="d">Графическая новелла: шторм при скролле, звук волн, web-audio. Как звук+движение воды создают погружение.</span></li>
-  </ul>
-  <div class="grp">Вода / спорт на воде / заповедники</div>
-  <ul>
-    <li><a href="https://magdahamilton.dev/solaris.html" target="_blank" rel="noopener">Solaris — Ocean Simulation</a> <span class="pill t-3d">3D/WebGL</span><span class="d">«Разумный океан»: реалистичная поверхность воды (Three.js + GLSL-шейдеры).</span></li>
-    <li><a href="https://www.americascup.com" target="_blank" rel="noopener">America's Cup (37th)</a> <span class="pill t-video">видео</span><span class="d">Видео-hero, динамика гонок, 3D-симулятор — «скорость на воде», морской адреналин.</span></li>
-    <li><a href="https://sanctuaries.noaa.gov/vr/" target="_blank" rel="noopener">NOAA Sanctuaries 360</a> <span class="d">360°/VR-туры по морским заповедникам — «эффект присутствия» без тяжёлого 3D.</span></li>
-    <li><a href="https://www.montereybayaquarium.org" target="_blank" rel="noopener">Monterey Bay Aquarium</a> <span class="pill t-video">видео</span><span class="d">Live-камеры, видео обитателей, брендинг Pentagram — как «продавать» подводный мир.</span></li>
-  </ul>
-  <div class="grp">Тех-демо «реалистичная вода» (доказательство реализуемости + бюджетный вау)</div>
-  <ul>
-    <li><a href="https://experiments.withgoogle.com/webgl-water-simulation" target="_blank" rel="noopener">WebGL Water (Evan Wallace)</a> <span class="pill t-3d">WebGL</span><span class="d">Легендарная «живая» вода с каустиками — на которую можно кликать.</span></li>
-    <li><a href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/" target="_blank" rel="noopener">WebGL Fluid Simulation</a> <span class="pill t-3d">WebGL</span><span class="d">Интерактивная жидкость от движения мыши, работает на мобиле — дешёвый вау для hero/курсора.</span></li>
-    <li><a href="https://threejs.org/examples/?q=ocean#webgl_shaders_ocean" target="_blank" rel="noopener">Three.js — Ocean shader</a> <span class="pill t-3d">WebGL</span><span class="d">Классический пример реалистичной поверхности океана.</span></li>
+    <li><a class="main" href="https://theseawebreathe.com" target="_blank" rel="noopener">The Sea We Breathe</a> <span class="pill t-theme">тема</span><span class="pill t-award">SOTD</span><span class="d">Погружение под воду на WebGL: 3 интерактивных «дайва», каустики, частицы, звук. <b>Эталон эмоции океана — наш главный референс.</b></span></li>
+    <li><a class="main" href="https://neal.fun/deep-sea/" target="_blank" rel="noopener">The Deep Sea</a> <span class="pill t-theme">тема</span><span class="d">Скролл от поверхности до Марианской впадины, существа на своих глубинах. Механика «скролл = погружение» под зоны рыбалки.</span></li>
+    <li><a class="main" href="https://www.sbs.com.au/theboat/" target="_blank" rel="noopener">The Boat (SBS)</a> <span class="pill t-theme">тема</span><span class="pill t-award">SOTD</span><span class="d">Шторм при скролле: тряска, нарастающий звук волн, web-audio + WebGL. Как звук и движение воды создают полное погружение.</span></li>
+    <li><a class="main" href="https://experiments.withgoogle.com/interstellar-endurance-exploration" target="_blank" rel="noopener">Interstellar — Endurance</a> <span class="pill t-award">FWA</span><span class="d">Облёт 3D-корабля в WebGL. Приём «3D-объект, который крутишь со всех сторон» — под наш катер/локацию.</span></li>
   </ul>
 </section>
 
-<section id="luxury">
-  <h2>③ Luxury travel / резорты / яхты</h2>
-  <p class="sub">Эталон «дорого выглядеть»: видео-hero, кинематографичный скролл, премиальная сдержанность.</p>
-  <div class="grp">Мальдивы — флагман-резорты (прямой бенчмарк визуала)</div>
+<section id="object">
+  <h2>④ 3D-объект / продукт (приём «герой-объект»)</h2>
+  <p class="sub">Один объект в 3D, раскрывается на скролле — прямая аналогия 3D-рыбе/катеру/туру.</p>
   <ul>
-    <li><a href="https://soneva.com" target="_blank" rel="noopener">Soneva</a> <span class="pill t-video">видео</span><span class="pill t-scroll">скролл</span><span class="d">Full-bleed видео-hero, медленный кинематографичный скролл, «slow luxury». Наш прямой бенчмарк.</span></li>
-    <li><a href="https://www.joali.com" target="_blank" rel="noopener">Joali Maldives</a> <span class="pill t-scroll">скролл</span><span class="d">Арт-резорт: насыщенная палитра, reveal-переходы, каждая вилла как галерея.</span></li>
-    <li><a href="https://patinahotels.com/maldives-fari-islands" target="_blank" rel="noopener">Patina Maldives</a> <span class="d">«Новая школа» luxury: дизайн-сетка, чистая типографика, молодой тон.</span></li>
-    <li><a href="https://www.sixsenses.com" target="_blank" rel="noopener">Six Senses</a> <span class="d">Wellness-резорты: природная палитра, мягкие анимации, «природа + премиум».</span></li>
-    <li><a href="https://www.velaaprivateisland.com" target="_blank" rel="noopener">Velaa Private Island</a> <span class="d">Приватный остров, кинематографичная эксклюзивность. <span class="chk">[проверить]</span></span></li>
-  </ul>
-  <div class="grp">Острова и резорты мирового топа</div>
-  <ul>
-    <li><a href="https://www.aman.com" target="_blank" rel="noopener">Aman</a> <span class="pill t-scroll">скролл</span><span class="d">Минимализм-эталон: воздух, full-bleed фото, «тихие» интеракции. Главный референс «премиум через минимализм».</span></li>
-    <li><a href="https://www.oneandonlyresorts.com" target="_blank" rel="noopener">One&Only Resorts</a> <span class="pill t-video">видео</span><span class="d">Видео-hero → слайдер, «footer reveal». Фишки микро-интеракций.</span></li>
-    <li><a href="https://www.rosewoodhotels.com" target="_blank" rel="noopener">Rosewood Hotels</a> <span class="pill t-video">видео</span><span class="d">Кинематографичный, но сдержанный hero + поэтичный копирайтинг.</span></li>
-    <li><a href="https://nihi.com" target="_blank" rel="noopener">NIHI Sumba</a> <span class="d">«Edge of Wildness»: приключенческий визуал, дикая эксклюзивность — близко к fishing-нарративу.</span></li>
-    <li><a href="https://thebrando.com" target="_blank" rel="noopener">The Brando</a> <span class="d">Приватный атолл: «один остров — одна легенда».</span></li>
-    <li><a href="https://singita.com" target="_blank" rel="noopener">Singita</a> <span class="d">Сафари-лоджи: иммерсив + реальная конверсия в заявку (planning-engine).</span></li>
-    <li><a href="https://reveriesafaris.com" target="_blank" rel="noopener">Reverie Safaris</a> <span class="pill t-award">Awwwards HM</span><span class="d">Свежий наградной бенчмарк в нашем сегменте.</span></li>
-  </ul>
-  <div class="grp">Яхты и суперяхты (продукт, 3D-конфигураторы)</div>
-  <ul>
-    <li><a href="https://www.princessyachts.com" target="_blank" rel="noopener">Princess Yachts — 3D Configurator</a> <span class="pill t-3d">3D/WebGL</span><span class="d">Иммерсивный 3D-конфигуратор (hull/палуба/интерьер в реалтайме). Планка под «собери свой тур/лодку».</span></li>
-    <li><a href="https://www.wajer.com" target="_blank" rel="noopener">Wajer Yachts</a> <span class="pill t-award">Awwwards HM</span><span class="d">Интерактивная платформа, кинематографичный продукт.</span></li>
-    <li><a href="https://www.wally.com" target="_blank" rel="noopener">Wally</a> <span class="d">Смелый архитектурный визуал культового яхт-бренда, сильный motion.</span></li>
-    <li><a href="https://www.feadship.nl" target="_blank" rel="noopener">Feadship</a> <span class="d">Тёмная кинематографичная эстетика, «инженерия как искусство».</span></li>
-    <li><a href="https://www.burgessyachts.com" target="_blank" rel="noopener">Burgess Yachts</a> <span class="pill t-video">видео</span><span class="d">Как премиально показывать флот/лодки (у нас — рыболовные суда).</span></li>
-  </ul>
-  <div class="grp">Эксклюзивные тревел-агентства (модель «лид/впечатление под заказ»)</div>
-  <ul>
-    <li><a href="https://pelorustravel.com" target="_blank" rel="noopener">Pelorus</a> <span class="pill t-video">видео</span><span class="d">Bespoke-экспедиции «с военной точностью», драматичные hero, экспедиционный тон. Наш профиль.</span></li>
-    <li><a href="https://www.blacktomato.com" target="_blank" rel="noopener">Black Tomato</a> <span class="d">Лидер luxury-travel: сторителлинг, крупная фотография, «путешествие как впечатление».</span></li>
-    <li><a href="https://www.andbeyond.com" target="_blank" rel="noopener">&Beyond</a> <span class="d">Сафари/острова/океан: природная фотография, нарратив «природа + люкс + смысл».</span></li>
-    <li><a href="https://explorajourneys.com" target="_blank" rel="noopener">Explora Journeys</a> <span class="pill t-video">видео</span><span class="d">Океан-luxury круизы, кинематографичная кампания «интимность приватной яхты».</span></li>
-    <li><a href="https://hedwigtravel.com" target="_blank" rel="noopener">Hedwig: Curated Travel</a> <span class="pill t-award">Awwwards HM</span><span class="d">Наградной бенчмарк бутикового тревел-агентства.</span></li>
+    <li><a class="main" href="https://manayerbamate.com" target="_blank" rel="noopener">Mana Yerba Mate</a> <span class="pill t-award">SOTY 2023</span><span class="d">3D-продукт + «вкусный» скролл и анимация. Как подать единственный продукт максимально аппетитно.</span></li>
+    <li><a class="main" href="https://opalcamera.com/opal-tadpole" target="_blank" rel="noopener">Opal Tadpole</a> <span class="pill t-award">Dev Award</span><span class="d">Цинематик-скролл вокруг одного 3D-продукта, детальный рендер. Премиальная подача одного предложения.</span></li>
+    <li><a class="main" href="https://blobmixer.14islands.com" target="_blank" rel="noopener">Blobmixer</a> <span class="pill t-award">SOTD/FWA</span><span class="d">Лепишь интерактивные 3D-блобы в реалтайме. Маленький «тул» как вирусный крючок.</span></li>
+    <li><a class="main" href="https://kprverse.com" target="_blank" rel="noopener">KPR (kprverse)</a> <span class="pill t-award">SOTY 2022</span><span class="d">Масштабная интерактивная WebGL-вселенная бренда, 3D-сцены и частицы.</span></li>
   </ul>
 </section>
 
-<section id="wow">
-  <h2>④ Вау-сайты: 3D / WebGL / анимация (награждённые)</h2>
-  <p class="sub">Планка «как может быть круто» — не про рыбалку, про эмоцию и качество исполнения.</p>
-  <div class="grp">Топ-эталоны (Site of the Year / культовые)</div>
-  <ul>
-    <li><a href="https://landonorris.com" target="_blank" rel="noopener">Lando Norris (F1)</a> <span class="pill t-3d">3D</span><span class="pill t-scroll">скролл</span><span class="pill t-award">SOTY 2025</span><span class="d">3D-шлем вращается по скроллу, кинематографичный сторителлинг вокруг героя — модель для «топ-капитан/локация».</span></li>
-    <li><a href="https://igloo.inc" target="_blank" rel="noopener">Igloo Inc</a> <span class="pill t-3d">WebGL</span><span class="pill t-award">SOTY 2024</span><span class="d">Масштабная флюид-симуляция в WebGL — «жидкая» вода как фон, прямая аналогия океану.</span></li>
-    <li><a href="https://lusion.co" target="_blank" rel="noopener">Lusion</a> <span class="pill t-3d">3D</span><span class="pill t-award">SOTY 2023</span><span class="d">Эталон Three.js: bloom, DOF, физика. Планка «дорогого» рендера 3D-героя.</span></li>
-    <li><a href="https://activetheory.net" target="_blank" rel="noopener">Active Theory</a> <span class="pill t-3d">WebGL</span><span class="pill t-award">SOTM</span><span class="d">Целые иммерсивные 3D-миры, частицы в реальном времени — построение «мира» бренда.</span></li>
-    <li><a href="https://bruno-simon.com" target="_blank" rel="noopener">Bruno Simon</a> <span class="pill t-3d">3D</span><span class="pill t-award">SOTM</span><span class="d">Ездишь на машинке по 3D-миру (физика) — интерактив как игра, максимальная запоминаемость.</span></li>
-  </ul>
-  <div class="grp">Студии-планки исполнения</div>
-  <ul>
-    <li><a href="https://unseen.co" target="_blank" rel="noopener">Unseen Studio</a> <span class="pill t-scroll">скролл</span><span class="pill t-award">Studio of the Year</span><span class="d">Типографика + движение (GSAP) без тяжёлого 3D — «бюджетный вау», реалистичная планка 1-й фазы.</span></li>
-    <li><a href="https://www.14islands.com" target="_blank" rel="noopener">14islands</a> <span class="pill t-3d">WebGL</span><span class="d">«Вау» при хороших Core Web Vitals — важно для SEO. См. их Blobmixer.</span></li>
-    <li><a href="https://blobmixer.14islands.com" target="_blank" rel="noopener">Blobmixer</a> <span class="pill t-3d">WebGL</span><span class="d">Интерактивный 3D-тул (лепишь блобы) — маленький вирусный крючок.</span></li>
-    <li><a href="https://immersive-g.com" target="_blank" rel="noopener">Immersive Garden</a> <span class="pill t-3d">3D</span><span class="d">Высокобюджетный 3D + контроль перформанса. Премиальный люкс-WebGL.</span></li>
-    <li><a href="https://noomoagency.com" target="_blank" rel="noopener">Noomo Agency</a> <span class="pill t-3d">3D</span><span class="d">3D-сторителлинг как профиль — витрина «дорогого» 3D.</span></li>
-    <li><a href="https://www.itsoffbrand.com" target="_blank" rel="noopener">OFF+BRAND</a> <span class="pill t-3d">3D</span><span class="d">Безупречные микро-анимации и переходы между кейсами.</span></li>
-  </ul>
-  <div class="grp">Продукт / «герой-объект» и навигация по локациям</div>
-  <ul>
-    <li><a href="https://opalcamera.com/opal-tadpole" target="_blank" rel="noopener">Opal Tadpole</a> <span class="pill t-3d">3D</span><span class="pill t-scroll">скролл</span><span class="d">Цинематик-скролл вокруг одного продукта — премиальная подача одного предложения.</span></li>
-    <li><a href="https://manayerbamate.com" target="_blank" rel="noopener">Mana Yerba Mate</a> <span class="pill t-3d">3D</span><span class="pill t-award">SOTY 2023</span><span class="d">3D-продукт + «вкусный» скролл — подача единственного продукта.</span></li>
-    <li><a href="https://messenger.abeto.co" target="_blank" rel="noopener">Messenger (3D-планета)</a> <span class="pill t-3d">WebGL</span><span class="d">Крошечная 3D-планета, облёт географии — 3D-глобус/карта как навигация по атоллам. <span class="chk">[проверить]</span></span></li>
-    <li><a href="https://www.getty.edu/persepolis" target="_blank" rel="noopener">Persepolis Reimagined</a> <span class="pill t-3d">3D</span><span class="d">Кинематографичный 3D-тур по месту — модель «погружение в локацию» (атолл/остров).</span></li>
-  </ul>
-</section>
-
-<section id="galleries">
-  <h2>⑤ Галереи, подборки и GitHub (листать бесконечно)</h2>
-  <p class="sub">Вечные источники — добавьте в закладки, чтобы насмотренность пополнялась сама.</p>
-  <div class="grp">Галереи наград и инспирации</div>
-  <table>
-    <tr><td><a href="https://www.awwwards.com/" target="_blank" rel="noopener">Awwwards</a></td><td>Главная награда; site of the day, фильтры по тегам/технологиям, коллекции.</td></tr>
-    <tr><td><a href="https://thefwa.com/" target="_blank" rel="noopener">The FWA</a></td><td>Премия за экспериментальные/интерактивные сайты, упор на WebGL.</td></tr>
-    <tr><td><a href="https://www.cssdesignawards.com/" target="_blank" rel="noopener">CSS Design Awards</a></td><td>WOTD/WOTM, большой архив с фильтрами.</td></tr>
-    <tr><td><a href="https://godly.website/" target="_blank" rel="noopener">Godly</a></td><td>Жёстко курируемая витрина лучшей анимации и скролл-эффектов.</td></tr>
-    <tr><td><a href="https://www.lapa.ninja/" target="_blank" rel="noopener">Lapa Ninja</a></td><td>7000+ лендингов, конверсионные паттерны. <a href="https://www.lapa.ninja/category/outdoors-travel/" target="_blank" rel="noopener">Outdoors&Travel</a>.</td></tr>
-    <tr><td><a href="https://www.siteinspire.com/" target="_blank" rel="noopener">SiteInspire</a></td><td>Hand-picked; фильтры Style/Type/Subject (есть Travel/Hospitality).</td></tr>
-    <tr><td><a href="https://land-book.com/" target="_blank" rel="noopener">Land-book</a></td><td>Курируемая галерея лендингов, сортировка по industry/style.</td></tr>
-    <tr><td><a href="https://www.cosmos.so/" target="_blank" rel="noopener">Cosmos</a></td><td>AI-визуальный поиск/мудборды, dark-first; поиск по цвету/настроению.</td></tr>
-    <tr><td><a href="https://refero.design/" target="_blank" rel="noopener">Refero</a></td><td>100k+ скриншотов живых продуктов; поиск по типу страницы/паттерну.</td></tr>
-    <tr><td><a href="https://webflow.com/made-in-webflow" target="_blank" rel="noopener">Webflow Showcase</a></td><td>Сайты на Webflow, фильтр animation/interaction; можно клонировать.</td></tr>
-    <tr><td><a href="https://minimal.gallery/" target="_blank" rel="noopener">Minimal Gallery</a></td><td>Минимализм, hand-picked daily.</td></tr>
-    <tr><td><a href="https://onepagelove.com/tag/webgl" target="_blank" rel="noopener">One Page Love — WebGL</a></td><td>Одностраничники с тегом WebGL.</td></tr>
-  </table>
-  <div class="grp">Прямые подборки по нашим темам (Awwwards)</div>
-  <table>
-    <tr><td><a href="https://www.awwwards.com/websites/webgl/" target="_blank" rel="noopener">WebGL</a></td><td>Лента лучших WebGL-сайтов.</td></tr>
-    <tr><td><a href="https://www.awwwards.com/websites/three-js/" target="_blank" rel="noopener">Three.js</a></td><td>3D-проекты (много водных сцен).</td></tr>
-    <tr><td><a href="https://www.awwwards.com/websites/animation/" target="_blank" rel="noopener">Animation</a></td><td>Лучшая анимация.</td></tr>
-    <tr><td><a href="https://www.awwwards.com/websites/travel-tourism/" target="_blank" rel="noopener">Travel & Tourism</a></td><td>Тревел-сайты.</td></tr>
-    <tr><td><a href="https://www.awwwards.com/websites/hotel-restaurant/" target="_blank" rel="noopener">Hotel / Restaurant</a></td><td>Отели/резорты.</td></tr>
-    <tr><td><a href="https://www.awwwards.com/websites/sites_of_the_year/" target="_blank" rel="noopener">Sites of the Year</a></td><td>Топ года — максимальная планка.</td></tr>
-  </table>
-  <div class="grp">GitHub awesome-листы</div>
-  <table>
-    <tr><td><a href="https://github.com/terkelg/awesome-creative-coding" target="_blank" rel="noopener">awesome-creative-coding</a></td><td>Generative art, шейдеры, WebGL/Three.js, инструменты, туториалы.</td></tr>
-    <tr><td><a href="https://github.com/AxiomeCG/awesome-threejs" target="_blank" rel="noopener">awesome-threejs</a></td><td>Курир. ресурсы Three.js: курсы, шейдеры, инструменты.</td></tr>
-    <tr><td><a href="https://github.com/zbryikt/awesome-webgl" target="_blank" rel="noopener">awesome-webgl</a></td><td>Библиотеки и ресурсы по WebGL.</td></tr>
-    <tr><td><a href="https://github.com/emmabostian/developer-portfolios" target="_blank" rel="noopener">developer-portfolios</a></td><td>Большой список портфолио — UI/UX-паттерны и креативная режиссура.</td></tr>
-    <tr><td><a href="https://github.com/topics/threejs-example" target="_blank" rel="noopener">GitHub Topics: threejs-example</a></td><td>Бесконечный скролл живых 3D-примеров.</td></tr>
-  </table>
+<section id="boards">
+  <h2>⑤ Доски-галереи (превью сеткой — листай бесконечно)</h2>
+  <p class="sub">Здесь каждый сайт показан превью-картинкой/видео — это и есть визуальная доска, всё уже отобрано как «красивое».</p>
+  <div class="board">
+    <a href="https://www.awwwards.com/websites/sites_of_the_year/" target="_blank" rel="noopener">Awwwards — Sites of the Year <span>· абсолютный топ по годам</span></a>
+    <a href="https://annuals.awwwards.com/categories/site-of-the-year" target="_blank" rel="noopener">Awwwards Annuals — Site of the Year <span>· победители-годовики</span></a>
+    <a href="https://www.awwwards.com/awwwards/collections/webgl/" target="_blank" rel="noopener">Awwwards — WebGL collection <span>· сетка WebGL-сайтов</span></a>
+    <a href="https://www.awwwards.com/awwwards/collections/three-js/" target="_blank" rel="noopener">Awwwards — Three.js collection <span>· 3D-проекты</span></a>
+    <a href="https://thefwa.com/" target="_blank" rel="noopener">The FWA <span>· архив экспериментальных/иммерсивных</span></a>
+    <a href="https://www.cssdesignawards.com/website-gallery?feature=webgl" target="_blank" rel="noopener">CSS Design Awards — WebGL <span>· галерея WebGL</span></a>
+    <a href="https://godly.website/" target="_blank" rel="noopener">Godly <span>· жёстко курируемая витрина анимации</span></a>
+  </div>
 </section>
 
 </div>
 
 <footer><div class="wrap">
-  Подборка для деки Maldives Fishing · собрано ресёрч-агентами (06.2026). <span class="chk">[проверить]</span> — открыть и заскринить перед вставкой (часть кампаний уходит в офлайн).<br>
-  Якоря под наш кейс: Alphonse + Nomad Tackle + The Sea We Breathe (опорные слайды) · Soneva/Aman (планка люкса) · Unseen/14islands (реалистичный вау под 1-ю фазу).
+  Только награждённые иммерсивные 3D/WebGL. Открывай и двигай — это интерактив. <span class="chk">[проверить]</span> — открыть и убедиться перед вставкой в деку.<br>
+  Под наш кейс полезнее всего: <b>The Sea We Breathe</b> (океан), <b>Messenger</b> (3D-глобус → атоллы), <b>Scout Motors</b> (3D-конфигуратор → «собери тур»), <b>Lando Norris</b> (3D-герой → капитан).
 </div></footer>
 
 </body>
