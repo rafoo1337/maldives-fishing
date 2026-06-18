@@ -2,6 +2,19 @@
 
 - [🏠 Главная](README.md)
 
+- **🎤 Питч клиенту**
+  - [★ Структура питча v2 (после аудита)](proposal/pitch-structure-v2.md)
+  - [Структура питча v1](proposal/pitch-structure.md)
+  - [Сырые аудиты питча](proposal/pitch-audit-raw.md)
+  - [План / оглавление КП](proposal/kp-plan.md)
+  - [Единое оглавление КП](proposal/kp-final-outline.md)
+
+- **🌐 Веб-страницы (открыть отдельно)**
+  - [КП-лендинг (kp.html)](https://rafoo1337.github.io/maldives-fishing/kp.html)
+  - [Конкуренты и каналы (sites.html)](https://rafoo1337.github.io/maldives-fishing/sites.html)
+  - [Дизайн-референсы 3D/WebGL](https://rafoo1337.github.io/maldives-fishing/design-refs.html)
+  - [Рынок, конкуренты, лиды](proposal/market-and-leads.md)
+
 - **📑 Коммерческое предложение**
   - [Обзор КП](proposal/kp/README.md)
   - [01 · Обложка](proposal/kp/01-cover.md)
