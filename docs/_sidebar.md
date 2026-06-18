@@ -3,9 +3,10 @@
 - [🏠 Главная](README.md)
 
 - **🎤 Питч клиенту**
-  - [★ Каркас слайдов (готов к сборке)](proposal/pitch-deck-skeleton.md)
-  - [★ Структура питча v3 (рабочая, чистая)](proposal/pitch-structure-v3.md)
-  - [Структура питча v2 (после аудита, подробная)](proposal/pitch-structure-v2.md)
+  - [★ Структура v4 — угол «эксперт по нише»](proposal/pitch-structure-v4.md)
+  - [Каркас слайдов (по v3 — обновим под v4)](proposal/pitch-deck-skeleton.md)
+  - [Структура v3 (reframe-версия)](proposal/pitch-structure-v3.md)
+  - [Структура v2 (подробный аудит)](proposal/pitch-structure-v2.md)
   - [Структура питча v1](proposal/pitch-structure.md)
   - [Сырые аудиты питча](proposal/pitch-audit-raw.md)
   - [План / оглавление КП](proposal/kp-plan.md)
