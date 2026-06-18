@@ -3,7 +3,8 @@
 - [🏠 Главная](README.md)
 
 - **🎤 Питч клиенту**
-  - [★ Структура питча v2 (после аудита)](proposal/pitch-structure-v2.md)
+  - [★ Структура питча v3 (рабочая, чистая)](proposal/pitch-structure-v3.md)
+  - [Структура питча v2 (после аудита, подробная)](proposal/pitch-structure-v2.md)
   - [Структура питча v1](proposal/pitch-structure.md)
   - [Сырые аудиты питча](proposal/pitch-audit-raw.md)
   - [План / оглавление КП](proposal/kp-plan.md)
