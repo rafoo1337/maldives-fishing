@@ -3,6 +3,7 @@
 - [🏠 Главная](README.md)
 
 - **🎤 Питч клиенту**
+  - [★ Каркас слайдов (готов к сборке)](proposal/pitch-deck-skeleton.md)
   - [★ Структура питча v3 (рабочая, чистая)](proposal/pitch-structure-v3.md)
   - [Структура питча v2 (после аудита, подробная)](proposal/pitch-structure-v2.md)
   - [Структура питча v1](proposal/pitch-structure.md)
