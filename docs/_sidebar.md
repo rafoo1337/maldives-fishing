@@ -3,6 +3,8 @@
 - [🏠 Главная](README.md)
 
 - **🎤 Питч клиенту**
+  - [Дека 26 слайдов (на разбор)](proposal/pitch-26.md)
+  - [★ Разбор деки 26 — вердикт](proposal/pitch-26-review.md)
   - [★ Структура v4 — угол «эксперт по нише»](proposal/pitch-structure-v4.md)
   - [Каркас слайдов (по v3 — обновим под v4)](proposal/pitch-deck-skeleton.md)
   - [Структура v3 (reframe-версия)](proposal/pitch-structure-v3.md)
